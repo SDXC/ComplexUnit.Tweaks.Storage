@@ -1,0 +1,68 @@
+﻿{
+  "enable_custom_storage_capacity": {
+    "default": false,
+    "description": "Enable custom storage capacities. This also sets storage throughput to infinity."
+  },
+  "storage_capacity_t1": {
+    "default": 200,
+    "is_integer": true,
+    "description": "Storage capacity for T1.",
+    "min": 200,
+    "max": 10000000
+  },
+  "storage_capacity_t2": {
+    "default": 500,
+    "is_integer": true,
+    "description": "Storage capacity for T2.",
+    "min": 500,
+    "max": 10000000
+  },
+  "storage_capacity_t3": {
+    "default": 3000,
+    "is_integer": true,
+    "description": "Storage capacity for T3.",
+    "min": 3000,
+    "max": 10000000
+  },
+  "storage_capacity_t4": {
+    "default": 6000,
+    "is_integer": true,
+    "description": "Storage capacity for T4.",
+    "min": 6000,
+    "max": 10000000
+  },
+  "storage_capacity_nuclear_waste": {
+    "default": 2400,
+    "is_integer": true,
+    "description": "Storage capacity for nuclear waste.",
+    "min": 2400,
+    "max": 10000000
+  },
+  "storage_capacity_shipyard": {
+    "default": 400,
+    "is_integer": true,
+    "description": "Storage capacity for shipyard.",
+    "min": 400,
+    "max": 10000000
+  },
+  "allow_chilled_water_in_fluid_storage": {
+    "default": false,
+    "description": "Allows chilled water to be stored in fluid storages."
+  },
+  "allow_exhaust_in_fluid_storage": {
+    "default": false,
+    "description": "Allows exhaust to be stored in fluid storages."
+  },
+  "allow_fbr_fuels_in_fluid_storage": {
+    "default": false,
+    "description": "Allows the fuel types of the FBR to be stored in fluid storages."
+  },
+  "allow_microchip_stages_in_solid_storage": {
+    "default": false,
+    "description": "Allows the multiple microchip stages to be stored in solid storages."
+  },
+  "allow_steam_in_fluid_storage": {
+    "default": false,
+    "description": "Allows steam to be stored in fluid storages."
+  }
+}

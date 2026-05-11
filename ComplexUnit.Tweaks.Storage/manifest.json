@@ -1,0 +1,14 @@
+﻿{
+  "id": "ComplexUnit.Tweaks.Storage",
+  "version": "1.0.0",
+  "display_name": "CxU.Tweaks.Storage",
+  "description_short": "Allows to tweak some of the storage properties and allow additional item types.",
+  "description_long": "Allows to tweak some of the storage properties such as capacity (including the shipyard) and allowing additional item types to be stored in storage. When custom capacities are enabled the throughput of the storages is automatically set to infinity.",
+  "authors": [ "ComplexUnit" ],
+  "links": [ "https://github.com/SDXC/ComplexUnit.Tweaks.Storage" ],
+  "primary_dlls": [ "ComplexUnit.Tweaks.Storage.dll" ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "min_game_version": "0.8.4b"
+}
